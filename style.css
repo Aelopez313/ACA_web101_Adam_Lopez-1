@@ -1,0 +1,48 @@
+main {
+    width: 850px;
+    height: 450px;
+    margin: 0 auto;
+    color: white;
+    background-image: url(download.jpg);
+    background-size: contain;
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+color: white;
+
+}
+body{
+    width: 850px;
+    margin: 0 auto;
+}
+section{
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(224, 222,222);
+}
+article{
+    width: 270px;
+    height: 374px;
+    background-color: rgb(224, 222,222);
+}
+div.relative {
+    position: relative;
+    left: 290px;
+    bottom:310px ;
+   
+}
+.right{
+   position: relative;
+    bottom: 415px;
+ 
+}
+.left{
+    position: relative;
+    bottom: 470px;
+    left: 620px;
+}
